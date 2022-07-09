@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Monoton&family=Rubik+Moonrocks&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fredericka+the+Great&family=Monoton&family=Rubik+Moonrocks&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fredericka+the+Great&family=Monoton&family=Rubik+Moonrocks&family=Splash&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Dancing+Script:wght@600&family=Fredericka+the+Great&family=Monoton&family=Rubik+Moonrocks&family=Splash&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@600&family=Dancing+Script:wght@600&family=Fredericka+the+Great&family=Monoton&family=Rubik+Moonrocks&family=Splash&family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color :honeydew;
+    font-family:'Varela Round', sans-serif ;
+}
+.heading
+{
+   
+   color: white;
+   /* block-size: 5ex; */
+   font-weight: bold;
+   font-size: 5ex;
+}
+.mine
+{
+    width: 13em;
+    height: 8em;
+    /* padding-right: 30ex; */
+    border-radius: 50%;
+}
+ .img1 
+{
+    width: 5vw;
+    height: 5vh;
+    
+}
+.img2
+{
+    width: 18vw;
+    height: 18vh; 
+    font-family: 'Dancing Script', cursive;  
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: right;
+    list-style: none;
+
+}
+ .logo{ 
+    width: 35 vw;
+    height: 5vh;
+    
+    
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    cursor: pointer;
+}
+nav li a:hover{
+    color: rgb(207, 56, 207);
+}
+#header{
+    width:100vw ;
+    height: 25vh;
+    background:black ;
+    display:flex ;
+    justify-content:center ;
+    align-items:center;
+}
+.topic{
+
+       display: flex;
+       justify-content:center ;
+    align-items:top;
+    }
+    
+
+.bio{
+    display: flex;
+   padding: 20px;
+   column-gap: 100px;
+}
+
+.bio p{
+    display: flex;
+    align-items: flex-end;
+}
+.bio article *{
+    margin: 20px;
+}
+#pf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background :rgb(196, 164, 186);
+    color:black;
+    padding: 20px;
+}
+#pf h1,h2,hr{
+     margin: 10px;
+
+}
+#pf div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5ex;
+    width: 100%;
+}
+
+
+ #pf div article{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    text-align: center; 
+    width: 300px;
+    height: 110px;
+    background-color:khaki;
+ }
+ .a1
+ {
+    width: 10vw;
+    height: 20vh;
+    /* justify-content: space-around; */
+    margin: 40px 0;
+    /* padding: 2px; */
+    border: 5px solid black;
+ }
+ .a2
+ {
+    width: 10vw;
+    height: 20vh;
+    margin: 40px 0;
+    /* padding: 2px; */
+    border: 5px solid black;
+ }
+ .a3
+ {
+    width: 10vw;
+    height: 20vh;
+    margin: 40px 0;
+    /* padding: 2px; */
+    border: 5px solid black;
+ }
+ #pf hr{
+width: 80%;
+  }
+ #skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+    background-color:rgb(215, 199, 162) ;
+ }
+ .skil
+ {
+     display : flex;
+    justify-content: space-around;
+    width: 100%;
+ }
+.skil div{
+    align-items: center;
+}
+#contacts{
+    background-color:rgb(148, 105, 119);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+#contacts H4{
+       margin-bottom: 10px;
+       font-size: larger;
+}
+.lek{
+    margin-bottom: 10px;
+}
+.input{
+    margin: 10px 0;
+    height: 30px;
+    width: 40ex;
+    border-radius: 5px;
+}
+.skil h4{
+    margin-bottom: 10px;
+}
+.space{
+    padding-bottom: 30px;
+}
+.bul ul{
+    list-style: none;
+}
+.buletin ul{
+    list-style: none;    
+}
+.sm{
+    text-align: center;
+    font-size:medium;
+    padding-top: 1.8ex;
+}
+.sm1{
+    font-size:medium;
+    padding-top: 1.8ex;
+    text-align: center;
+}
+.sm2{
+    font-size:medium;
+    padding-top: 1.8ex;
+    text-align: center;
+}
+.FONT p{
+    font-size:medium;
+}
+.q1{
+    padding-top: 1.5ex;
+}
+
+.q2{
+    padding-top: 1.5ex;
+}
+.q3{
+    padding-top: 1.5ex;
+}
